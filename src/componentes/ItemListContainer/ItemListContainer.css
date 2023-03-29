@@ -1,0 +1,7 @@
+.text {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 4rem;
+    font:bold;
+    background: linear-gradient(to left, #1edab426, #602cf08e);
+}

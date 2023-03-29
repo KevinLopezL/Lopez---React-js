@@ -1,11 +1,11 @@
 import React from "react";
-
+import CartWidget from "../CartWidget/CartWidget";
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
-                    Navbar
+                    ComicShop
                 </a>
                 <button
                     className="navbar-toggler"
@@ -22,27 +22,28 @@ const Navbar = () => {
                     <ul className="navbar-nav">
                         <li className="nav-item">
                             <a className="nav-link active" aria-current="page" href="#">
-                                Home
+                                Inicio
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">
-                                Features
+                                En ingles
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">
-                                Pricing
+                                Destacados
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link disabled">Disabled</a>
+                            <a className="nav-link disabled">Contacto</a>
                         </li>
+                        <CartWidget/>
                     </ul>
                 </div>
             </div>
         </nav>
     );
-};
+};  
 
 export default Navbar;

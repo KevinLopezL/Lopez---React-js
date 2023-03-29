@@ -1,13 +1,15 @@
 import './App.css';
 import ProductCard from './componentes/ProductCard/ProductCard';
 import Navbar from './componentes/Navbar/Navbar';
-function App() {
+import ItemListContainer from './componentes/ItemListContainer/ItemListContainer';
 
+function App() {
   return (
     <div className="App">
       <Navbar />
+      <ItemListContainer greeting="Bienvenido"/>
       <ProductCard />
-      
+
     </div>
   );
 }
